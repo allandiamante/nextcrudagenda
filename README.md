@@ -2,7 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, run the server JSON:
+```bash
+npm run json-server 
+# or
+yarn run json-server 
+# or
+pnpm run json-server 
+```
+Seccond, run the development server:
 
 ```bash
 npm run dev
