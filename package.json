@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+
     "build": "next build",
-    "start": "json-server --watch data/todos.json --port 3001 & next start",
+    "start": "json-server --watch data/todos.json --port 3001",
     "next": "next",
-    "lint": "next lint",
-    "json-server": "json-server --watch data/todos.json --port 3001"
+    "lint": "next lint"
+
   },
   "dependencies": {
     "@types/node": "20.3.3",
